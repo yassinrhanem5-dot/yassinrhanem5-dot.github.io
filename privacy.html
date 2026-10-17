@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Outreach privacy policy</title>
+<meta name="description" content="How Outreach uses Google user data.">
+<style>
+  :root { --bg: #f7f7f5; --card: #ffffff; --fg: #1d1d1b; --muted: #5f5f5a; --line: #e4e4df; --link: #2557a7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141413; --card: #1e1e1c; --fg: #ededea; --muted: #a8a8a2; --line: #33332f; --link: #8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 28px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  p, li { color: var(--muted); }
+  ul { padding-left: 20px; }
+  a { color: var(--link); }
+  .updated { font-size: 14px; margin: 0 0 20px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated: 17 October 2026</p>
+
+    <p>Outreach is a private, self-hosted email tool used only by its owner. This policy explains what Google user data it accesses when the owner connects their own Gmail account, and what it does with that data.</p>
+
+    <h2>Google data Outreach accesses</h2>
+    <ul>
+      <li><strong>Your email address</strong> (<code>userinfo.email</code>), to identify which Gmail account is connected.</li>
+      <li><strong>Sending email</strong> (<code>gmail.send</code>), to send the emails and follow-ups the owner writes and schedules.</li>
+      <li><strong>Reading email metadata and messages</strong> (<code>gmail.readonly</code>), only to detect replies, automatic replies and delivery failures (bounces) to emails Outreach sent, so follow-ups stop automatically.</li>
+      <li><strong>Reading Google Sheets</strong> (<code>spreadsheets.readonly</code>), only for a spreadsheet the owner chooses to import contacts from.</li>
+    </ul>
+
+    <h2>How the data is used and stored</h2>
+    <ul>
+      <li>Data is used only to provide these features to the owner. It is never sold, never used for advertising, and never shared with third parties.</li>
+      <li>Outreach stores the minimum it needs: the connected email address, an encrypted access token (AES-256-GCM), and, for emails it sent, the message and thread IDs, reply status and a short snippet of replies so the owner can see who answered.</li>
+      <li>Data is stored in the owner's own database. No one else operates or has access to it.</li>
+      <li>No humans read your data, except the owner viewing their own mailbox information in their own tool.</li>
+    </ul>
+
+    <h2>Google API Services User Data Policy</h2>
+    <p>Outreach's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Recipients of emails</h2>
+    <p>People who receive an email sent with Outreach can stop all further emails by using the unsubscribe link in the email, or by replying "unsubscribe". Their address is then added to a permanent do-not-contact list.</p>
+
+    <h2>Removing access and deleting data</h2>
+    <p>You can revoke Outreach's access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. The owner can delete all stored data by deleting the Outreach database.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy: <a href="mailto:yassiinrhanem@gmail.com">yassiinrhanem@gmail.com</a></p>
+  </div>
+</main>
+</body>
+</html>
